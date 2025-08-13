@@ -1,0 +1,27 @@
+void main()
+{
+	int row,i,j,k,t;
+	char c;
+	clrscr();
+	printf("enter the rows you want:");
+	scanf("%d",&row);
+	printf("enter the number of start you want:");
+	scanf("%d",&t);
+	printf("enter the char you want:");
+	scanf(" %c",&c);
+	for(k=1;k<=row;k++)
+	{
+		for(i=1;i<=t;i++)
+		{
+
+			for(j=1;j<=k;j++)
+			{
+			      printf("%c",c);
+			}
+			printf("\t");
+		}
+		printf("\n");
+
+	}
+	getch();
+}
